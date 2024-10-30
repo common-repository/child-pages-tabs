@@ -1,0 +1,71 @@
+.child-pages-tab { 
+    padding: 0px; 
+    background: none; 
+    border-width: 0px; 
+    margin-bottom: 2em;
+}
+.child-pages-tab .ui-tabs-nav { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.child-pages-tab.with-border .ui-tabs-nav{
+	border: 1px solid #ccc;
+}
+.child-pages-tab .ui-tabs-nav li a{
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.child-pages-tab .ui-tabs-nav li.ui-tabs-active a{
+	font-weight: bold;
+}
+.child-pages-tab.with-bg-colors .ui-tabs-nav li.ui-tabs-active a{ 
+	background-color: #ccc;
+}
+.child-pages-tab.with-bg-colors .ui-tabs-nav li a:hover{ 
+    background-color: #ddd;
+}
+.child-pages-tab.with-bg-colors .ui-tabs-nav { 
+	background-color: #f1f1f1;
+}
+.child-pages-tab .ui-tabs-panel { 
+	padding: 15px;
+}
+
+
+/* Horizontal tabs style. */
+.child-pages-tab.style-horizontal .ui-tabs-nav li { 
+	float: left;
+}
+.child-pages-tab.style-horizontal .ui-tabs-nav li a{ 
+    display: inline-block;
+    text-align: center;
+}
+.child-pages-tab.with-border.style-horizontal .ui-tabs-panel{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	margin-top: -1px;
+}
+
+
+/* Vertical tabs style. */
+.child-pages-tab.style-vertical .ui-tabs-nav{
+	float: left;
+	width: 30%;
+}
+.child-pages-tab.style-vertical .ui-tabs-panel {
+	float: left;
+	width: 70%;
+}
+.child-pages-tab.style-vertical .ui-tabs-nav li a{ 
+	display: block;
+}
+.child-pages-tab.with-border.style-vertical .ui-tabs-panel{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	margin-left: -1px;
+}
